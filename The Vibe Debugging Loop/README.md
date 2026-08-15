@@ -88,3 +88,6 @@ If you are shipping AI-generated code and want to fix what breaks without the pa
 5. Audit before you scale. A vibe-coded MVP at 100 users is fine. The same code at 10,000 users with a payment flow needs a human review pass.
 
 The shortcut: if you already shipped something with AI and you are not sure what to fix first, walk the Vibe Debugging hub top to bottom. Critical issues first.
+
+https://vibecoding.app/vibe-debugging
+
