@@ -2,6 +2,8 @@ When an endpoint touches a database, the query text alone does not explain its c
 
 Execution plans show how the database intends to find, join, sort, group, and filter the data. Tools such as EXPLAIN and EXPLAIN ANALYZE reveal whether an index is used, how many rows pass through each stage, which join strategy was selected, and whether the planner's estimates resemble reality.
 
+<img width="911" height="560" alt="image" src="https://github.com/user-attachments/assets/b4ad8605-7dbb-4c93-9e74-bbf98dd38326" />
+
 This matters because harmless-looking SQL can produce enormous hidden work. A query may return twenty rows after scanning millions. Several one-to-many joins may multiply the intermediate result before aggregation reduces it again. A function applied to an indexed column may prevent the expected access path.
 
 I compare estimated and actual row counts closely. Large differences can indicate outdated statistics, skewed data, correlated fields, or assumptions that hold for development data but not for the largest production tenants.
