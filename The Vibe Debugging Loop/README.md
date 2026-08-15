@@ -24,6 +24,8 @@ Two adjacent practices keep the loop short:
 - **Vibe logging.** Before you re-prompt, add print statements, assertions, or instrumentation to the code path you suspect. Give the next AI turn signal it cannot otherwise see. This is the cheapest leverage in the workflow.
 - **Vibe refactor.** Once a fix lands, schedule a small follow-up session to rename, deduplicate, and comment the touched area. AI-generated code tolerates this beautifully and the next debug session benefits.
 
+-----
+
 ## Why AI-Generated Code Breaks the Way It Does
 
 Vibe debugging would be a smaller category if AI-generated code did not have a distinctive failure profile. It does.
@@ -58,15 +60,6 @@ Best for: bugs that only show up under real load or in prod data. The AI talks t
 - Panto AI — code-level conversational debug
 - Sentry AI features — error-message explanations and suggested fixes inline in stack traces
 - Datadog Bits AI — incident triage assistant
-
-**After-the-fact cleanup**
-
-Best for: codebases that need a human pass before more AI gets thrown at them.
-
-- A vetted agency for structural fixes the AI keeps getting wrong
-- Our Vibe Debugging hub catalogs the most common bugs by symptom and links the right tool or agency for each
-
-We rank none of these here. This is a definition piece, not a roundup. If you want opinionated picks, the tools directory and the agencies directory live one click away.
 
 ## When Vibe Debugging Fails
 
