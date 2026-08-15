@@ -24,6 +24,7 @@ No single tool explains the complete system. The value comes from knowing which 
 8. [Distributed Tracing](<8. Distributed Tracing>)
 9. [CPU Profilers and Flame Graphs](<9. CPU Profilers and Flame Graphs>)
 10. [Memory and Heap Analysis](<10. Memory and Heap Analysis>)
+11. [The Vibe Debugging Loop](<The Vibe Debugging Loop>)
 
 ## Serious Debugging Requires More Than One Kind of Evidence
 
