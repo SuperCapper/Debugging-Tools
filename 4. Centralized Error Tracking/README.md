@@ -2,6 +2,8 @@ Application logs contain enormous amounts of information. Error tracking answers
 
 A centralized error tracker groups similar failures, preserves stack traces, records application versions, and attaches carefully selected runtime context. This is far more useful than discovering individual exceptions inside a general log stream.
 
+<img width="866" height="528" alt="image" src="https://github.com/user-attachments/assets/ebb95dae-5a0b-4b44-9b6c-0faad603c8ae" />
+
 Frequency matters. One exception caused by an unsupported internal test record deserves different urgency from an error affecting thousands of checkout attempts. Error grouping and release comparison help separate isolated anomalies from regressions introduced by a deployment.
 
 The stack trace provides the immediate failure location, but the surrounding context often matters more. Which route was active? Which application version handled the request? Was the user in a particular account state? Did the failure begin after a feature flag changed?
