@@ -2,7 +2,7 @@ Memory problems are among the hardest failures to diagnose through ordinary logs
 
 Heap snapshots, allocation profiles, and runtime memory statistics show which objects remain in memory, how they are connected, and which references prevent garbage collection.
 
-<img width="862" height="577" alt="image" src="https://github.com/user-attachments/assets/c219b694-6c6f-45f3-8b6e-8e0ef5b565ca" />
+<p align="center"><img width="862" height="577" alt="image" src="https://github.com/user-attachments/assets/c219b694-6c6f-45f3-8b6e-8e0ef5b565ca" /></p>
 
 This helps distinguish a true leak from legitimate temporary growth. A process may use more memory because it is handling larger workloads, caching intentionally, or waiting for garbage collection. A leak exists when objects remain reachable after their useful lifetime has ended.
 

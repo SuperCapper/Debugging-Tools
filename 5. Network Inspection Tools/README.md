@@ -2,7 +2,7 @@ Many bugs that look like application-logic failures are actually contract failur
 
 The client sends a different payload from the one the developer expected. A proxy removes or rewrites a header. A request is repeated automatically. A redirect changes the method. The backend returns the correct JSON, but an old client interprets it differently.
 
-<img width="891" height="469" alt="image" src="https://github.com/user-attachments/assets/60c79ee8-a09f-4db9-8d77-e8932129c6b2" />
+<p align="center"><img width="891" height="469" alt="image" src="https://github.com/user-attachments/assets/60c79ee8-a09f-4db9-8d77-e8932129c6b2" /></p>
 
 Browser network panels, command-line tools such as curl, API clients, and controlled HTTP proxies make the actual communication visible. They show methods, URLs, headers, cookies, request bodies, status codes, redirects, response sizes, and timing phases.
 

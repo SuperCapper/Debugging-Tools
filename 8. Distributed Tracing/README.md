@@ -2,7 +2,7 @@ In a distributed system, one user request may cross several services before retu
 
 Distributed tracing connects those stages through one trace identity. Each database query, network request, queue operation, and internal function span becomes part of a timeline showing where time was spent and where the path ended.
 
-<img width="954" height="587" alt="image" src="https://github.com/user-attachments/assets/d9a3555d-29a3-406f-b4b6-d1cbd61f1e37" />
+<p align="center"><img width="954" height="587" alt="image" src="https://github.com/user-attachments/assets/d9a3555d-29a3-406f-b4b6-d1cbd61f1e37" /></p>
 
 This is especially valuable when service logs disagree about responsibility. The API may show that it waited on the billing service. The billing service may show that it waited on an identity lookup. The identity service may show a fast response but only after the request spent time queued for a connection.
 

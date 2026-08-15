@@ -2,7 +2,7 @@ When a process consumes high CPU or becomes unresponsive, reading the code is ra
 
 CPU profilers sample what the process is executing over time and show which functions consume the largest share. Flame graphs turn that data into a visual representation of call stacks and accumulated work.
 
-<img width="868" height="563" alt="image" src="https://github.com/user-attachments/assets/37738f52-d275-4b2c-9f49-d3be74b30f7e" />
+<p align="center"><img width="868" height="563" alt="image" src="https://github.com/user-attachments/assets/37738f52-d275-4b2c-9f49-d3be74b30f7e" /></p>
 
 This is useful because expensive behavior may come from ordinary operations repeated at scale. JSON serialization, schema validation, regular expressions, object copying, date formatting, compression, or logging can dominate CPU without any one call appearing suspicious.
 

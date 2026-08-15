@@ -2,7 +2,7 @@ Logs explain individual events. Metrics reveal behavior across the complete syst
 
 Request rates, error percentages, latency percentiles, memory usage, CPU consumption, queue depth, connection-pool saturation, and dependency timing show when a failure began and how widely it spread.
 
-<img width="897" height="527" alt="image" src="https://github.com/user-attachments/assets/ef7b8fad-3d4f-4391-8295-34b42b09a6f2" />
+<p align="center"><img width="897" height="527" alt="image" src="https://github.com/user-attachments/assets/ef7b8fad-3d4f-4391-8295-34b42b09a6f2" /></p>
 
 The shape of a metric often suggests the type of problem. A gradual memory increase points toward retention or unbounded growth. A sudden latency increase after a deployment suggests a regression. Stable query execution beside rising request latency may indicate queueing elsewhere in the application. A healthy median with a terrible ninety-ninth percentile suggests that a subset of traffic is waiting or encountering an expensive path.
 

@@ -2,7 +2,7 @@ The first debugging tool I reach for is not a dashboard or profiler. It is a sma
 
 A production symptom may initially be vague. A record is occasionally duplicated, a component sometimes displays old data, or an endpoint becomes slow only for certain accounts. ***Before changing the implementation, I try to identify the smallest conditions required to reproduce the behavior.***
 
-<img width="945" height="535" alt="image" src="https://github.com/user-attachments/assets/7d2af1e4-ab29-44b0-9bf6-ebe6b0f3a0f4" />
+<p align="center"><img width="945" height="535" alt="image" src="https://github.com/user-attachments/assets/7d2af1e4-ab29-44b0-9bf6-ebe6b0f3a0f4" /></p>
 
 That reproduction may become an automated test, a short script, a saved HTTP request, or a small fixture containing the exact data shape that triggers the problem. The format matters less than repeatability.
 

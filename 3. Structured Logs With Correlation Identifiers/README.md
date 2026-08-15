@@ -2,7 +2,7 @@ Interactive debugging is excellent for reproducible local behavior. Production f
 
 That is where structured logs become essential.
 
-<img width="877" height="612" alt="image" src="https://github.com/user-attachments/assets/11134159-aa41-41e6-8458-30da32d12c0e" />
+<p align="center"><img width="877" height="612" alt="image" src="https://github.com/user-attachments/assets/11134159-aa41-41e6-8458-30da32d12c0e" /></p>
 
 A useful log entry should describe an event through stable fields rather than only through a sentence. The operation name, request identifier, user or tenant identifier where appropriate, entity identifier, status, duration, and safe error category allow logs to be searched and connected later.
 

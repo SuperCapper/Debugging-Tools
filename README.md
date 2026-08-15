@@ -1,5 +1,18 @@
 # Debugging-Tools
 
+## Contents
+
+1. [A Minimal Reproduction or Failing Test](<1. A Minimal Reproduction or Failing Test>)
+2. [An Interactive Debugger](<2. An Interactive Debugger>)
+3. [Structured Logs With Correlation Identifiers](<3. Structured Logs With Correlation Identifiers>)
+4. [Centralized Error Tracking](<4. Centralized Error Tracking>)
+5. [Network Inspection Tools](<5. Network Inspection Tools>)
+6. [Database Query Plans and Slow-Query Evidence](<6. Database Query Plans and Slow-Query Evidence>)
+7. [Metrics and Time-Series Dashboards](<7. Metrics and Time-Series Dashboards>)
+8. [Distributed Tracing](<8. Distributed Tracing>)
+9. [CPU Profilers and Flame Graphs](<9. CPU Profilers and Flame Graphs>)
+10. [Memory and Heap Analysis](<10. Memory and Heap Analysis>)
+
 A small project can survive informal debugging. Add a few console statements, refresh the page, change the suspicious function, and check whether the error disappears. The complete application may be simple enough to hold in one developer's head, and most failures can be reproduced within a few minutes.
 
 Serious software changes the nature of the problem.
