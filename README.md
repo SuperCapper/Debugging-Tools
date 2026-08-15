@@ -48,3 +48,5 @@ The tools can change as the architecture grows.
 The principle should not.
 
 When the system fails, developers should be able to ask it what happened and receive something more useful than silence.
+
+https://medium.com/skillstuff/i-use-these-10-debugging-tools-in-every-serious-software-project-b1b59983c402
